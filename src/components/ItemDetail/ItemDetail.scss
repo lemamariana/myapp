@@ -1,0 +1,25 @@
+.detail{
+    display: flex;
+    
+    h2 {
+        color: blanchedalmond;
+        margin:1rem;
+    }
+}
+
+.detail{
+    min-width: 50vw;
+    display: flex;
+    font-size: 2.2em;
+    .img{
+        width: 40vw;
+    }
+} 
+
+.detailcontent{
+    max-width: 48vw;
+    align-items: center;
+    color:blanchedalmond;
+    margin: auto 0;
+    
+}

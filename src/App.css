@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  max-width: 100vw;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  background-color: #290a56;;
+  color: blueviolet}

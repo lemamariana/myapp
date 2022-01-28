@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Trochut&display=swap');
+
+.header {
+    min-width: 100vw;
+    background-color: #290a56;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 11vh;
+
+    h1 {
+        font-size: 42px;
+        font-weight: 700;
+    }
+
+    nav {
+        ul {
+            display: flex;
+            justify-content: space-around;
+            align-items: center; 
+           
+            li {
+                padding: 0 1.7rem;
+                list-style-type: none;
+            }
+            
+            a {
+                color: #F27F3D;                  
+                text-decoration: none;
+                font-size: 2rem;
+                font-family: 'Trochut', cursive;
+                text-transform: uppercase;
+                text-shadow: 0.5em rgb(0, 0, 0);
+                text-shadow: 1px 1px 2px black, 0 0 1em orange, 0 0 0.2em orange;
+
+            }
+        }
+    }
+}
